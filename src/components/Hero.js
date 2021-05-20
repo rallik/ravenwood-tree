@@ -1,10 +1,12 @@
 import React from 'react'
+import BackgroundSection from './Background'
 
 const Hero = () => {
     return (
-        <div>
+        <section className='full hero'>
             Hero
-        </div>
+            <BackgroundSection/>
+        </section>
     )
 }
 
